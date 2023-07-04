@@ -1,0 +1,85 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap');
+
+/*VARIABLES*/
+:root{
+    --font-family-body: 'Montserrat', sans-serif;
+    --color-blue: #0a2ff1;
+}
+
+*{
+margin: 0;
+padding: 0;
+text-align: center;
+}
+body{
+    font-family: var(--font-family-body);
+    display: flexbox;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border-top-width: 40px;
+    border-bottom-width: 70px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: var(--color-blue);
+}
+li{
+    list-style: none;
+    display: inline;
+}
+
+
+
+/*CLASES*/
+.negroyblanco{
+    background-color: black;
+    color: white;
+}
+.bold{
+    font-weight: 900;
+}
+.semibold{
+    font-weight: 600;
+}
+.azul{
+    color: var(--color-blue);
+}
+
+/*ID'S*/
+
+/*23 NOVIEMBRE*/
+#nov{
+    font-size: 66px;
+    padding-top: 0px;
+    padding-bottom: 100px;
+    vertical-align: text-top;
+}
+/*BLACK*/
+#black{
+    font-size: 197px;
+}
+/*FRIDAY*/
+#frd{
+    font-size: 217px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+/*DESCUENTOS*/
+#reng1{
+    font-size: 48px;
+}
+/*DE HASTA*/
+#reng2{
+    font-size: 48px;
+}
+/*50%*/
+#reng3{
+    font-size: 60px;
+}
+/*NO TE LO PIERDAS*/
+#foot{
+    font-size: 58px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
